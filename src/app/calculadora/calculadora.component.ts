@@ -14,7 +14,7 @@ export class CalculadoraComponent {
   multiplicacao: number=0;
   divisao: number=0;
 
-  calc(){
+  somar(){
     this.soma = this.num1 + this.num2;
   }
   sub(){
