@@ -1,1 +1,12 @@
-<p>calculadora works!</p>
+<form>
+  <input type="number" [(ngModel)]="num1" name="num1">
+  <br><br>
+  <input type="number" [(ngModel)]="num2" name="num2">
+  <br><br>
+  <button (click)="calc()">Somar</button>
+  <button (click)="sub()">Subtrair</button>
+  <button (click)="mult()">Multiplicar</button>
+  <button (click)="div()">Divisão</button>
+  {{result}}
+
+</form>
